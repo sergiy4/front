@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat'
+}
+
+header{
+    background: black;
+    height: 15vh;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color:white;
+    font-weight: 300;
+    
+}
+.Sign_up_form_display{
+    height: 85vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Sign_up_form{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+
+    height: 350px;
+    width: 35vw;
+    background-color: rgb(255, 251, 225);
+
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 22px 1px rgba(0, 0, 0, 0.2);
+}
+.Sign_up_title{
+    font-size: 30px;
+    align-self: center;
+    font-weight: 200;
+}
+.label_sign{
+    font-size: 20px;
+
+    font-weight: 200;
+    
+}
+input{
+    height: 29px;
+    border-radius: 10px;
+    border: none;
+
+
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    align-self: center;
+    margin-top: 40px;
+    border-radius: 10px;
+    border:none;
+
+    background-color: rgb(162, 255, 144);
+}
+
+/* Shop */
+.header_shop{
+    display: flex;
+    width: 100%;
+    gap: 40px;
+   /* position: fixed; */
+}
+.search{
+    width: 35vw;
+    font-weight: bold;
+}
+.product_place{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.products_grid{
+   padding-top: 50px;
+   
+   height: 100%;
+   
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:100px;
+   
+    flex-wrap: wrap;
+    width:80%; 
+   
+    margin-bottom: 50px;
+    
+}
+/* card */
+
+.img_shirt{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-top-right-radius: 30px;
+    border-top-left-radius:30px
+
+} 
+
+.one_card{
+    background-color: rgb(255, 251, 225);
+
+    height: 300px;
+    width: 200px;
+    box-shadow: 2px 2px 22px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+}
+.down_part{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    position: relative;
+    padding: 10px;
+}
+
+
+.name_print{
+    font-size: 17px;
+
+
+}
+.price{
+    font-size: 17px;
+}
+.buy_btn{
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin: 0;
+    margin-right:10px;
+    width: 80px;
+    height: 40px;
+   
+    border-radius: 10px;
+    border:none;
+
+   
+    font-weight: 400;
+    background-color: rgb(162, 255, 144);
+    cursor: pointer;
+}
